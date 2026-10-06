@@ -1,0 +1,17 @@
+[project]
+name = "drf-marketplace"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "dj-database-url>=3.1.2",
+    "django>=6.1.1",
+    "django-filter>=26.2",
+    "djangorestframework>=3.18.1",
+    "djangorestframework-simplejwt>=5.5.1",
+    "gunicorn>=26.2.0",
+    "psycopg[binary]>=3.3.6",
+    "python-dotenv>=1.2.4",
+]
+
+[tool.ruff.format]
+quote-style = "single"

@@ -1,0 +1,8 @@
+.env
+data.json
+.venv/
+.env
+data.json
+db.sqlite3
+__pycache__/
+*.py[cod]
